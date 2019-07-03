@@ -1,0 +1,19 @@
+{
+  "name": "administrateur/php-framework",
+  "description": "Un petit framework MVC",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jerome",
+      "email": "jeromeb77860@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "m2i\\framework\\": "framework/",
+      "m2i\\project\\controllers\\": "src/controllers/"
+    }
+  }
+}
